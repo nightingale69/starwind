@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100%;
+}
+
+.menu_container {
+    position: fixed;
+    width: 200px;
+    height: 2000px;
+    background-color: #141d27;
+}
+
+li {
+    width: 190px;
+    padding: 20px 0 20px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 25px;
+    color: whitesmoke;
+    text-transform: lowercase;
+    border-right: 2px solid transparent;
+    transition: border 0.5s ease, background-color 0.5s ease, border-right 0.5s ease;
+}
+
+li:hover {
+    border-right: 2px solid rgba(255, 165, 0, 1);
+    background-color: whitesmoke;
+    color: black; 
+}
+
+.content {
+    margin-left: 240px;
+}

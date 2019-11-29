@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class GamesComponent {
 	
 	public constructor(private titleService: Title ) {
-		this.titleService.setTitle("Starwind games");
+		this.titleService.setTitle("Starwind Games");
 	}
 
 }

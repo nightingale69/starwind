@@ -1,1 +1,23 @@
-<router-outlet></router-outlet>
+<div class="wrapper">
+    <div class="menu_container">
+        <p>Starwind</p>
+        <ul class="menu_list">
+            <li class="menu-item-link" routerLink="/content/games" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                <p>Игры</p>
+            </li>
+            <li class="menu-item-link" routerLink="/content/applications" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                <p>Приложения</p>
+            </li>
+            <!--<li><p class="menu-item-link" routerLink="/content/services" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Сервисы</p></li>-->
+            <li class="menu-item-link" routerLink="/content/contacts" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                <p>Контакты</p>
+            </li>
+            <li class="menu-item-link" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                <p>На главную</p>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

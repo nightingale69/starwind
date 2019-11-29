@@ -26,7 +26,7 @@ const appRoutes: Routes = [
 		component: NotFoundComponent 
 	},
 	{ 
-		path: 'content', 
+		path: 'content',
 		component: ContentContainerComponent,
 		children: 
 		[ 

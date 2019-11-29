@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ContactsComponent {
 
 	public constructor(private titleService: Title ) {
-		this.titleService.setTitle("Starwind contacts");
+		this.titleService.setTitle("Starwind Contacts");
 	}
 
 }

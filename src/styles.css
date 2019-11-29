@@ -6,8 +6,25 @@
 html, body {
     background-color: rgba(30, 30, 30, 1);
     border: 0;
+    
 }
 
-a {
+a, li {
     text-decoration: none;
+    font-family: 'Jura-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: Gothic; /* Имя шрифта */
+    src: url(/assets/fonts/GOTHIC.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Jura-Bold; /* Имя шрифта */
+    src: url(assets/fonts/Jura-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Play-Bold; /* Имя шрифта */
+    src: url(assets/fonts/Play-Bold.ttf); /* Путь к файлу со шрифтом */
 }
