@@ -27,6 +27,12 @@ li:hover {
     color: black; 
 }
 
+.active {
+    border-right: 2px solid rgba(255, 165, 0, 1);
+    background-color: whitesmoke;
+    color: black;
+}
+
 .content {
     margin-left: 240px;
 }
